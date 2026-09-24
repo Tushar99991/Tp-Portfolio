@@ -1385,7 +1385,7 @@ export default function AboutDeveloperPage() {
                   </div>
 
                   {/* Floating code card */}
-                  <div className="absolute left-8 sm:-left-4 lg:-left-28 bottom-24 sm:bottom-10 lg:bottom-20 w-28 sm:w-52 rounded-2xl bg-slate-950/90 backdrop-blur-xl border border-indigo-400/10 text-white shadow-[0_20px_70px_rgba(0,0,0,.4)] p-2.5 sm:p-4 animate-[float_6s_ease-in-out_infinite_reverse] hover:-translate-y-2 hover:border-indigo-400/30 hover:shadow-[0_20px_70px_rgba(79,70,229,.18)] transition-all duration-300">
+                   <div className="absolute left-[-4px] top-[275px] w-28 sm:left-[-16px] sm:top-auto sm:bottom-10 sm:w-52 lg:left-[-112px] lg:bottom-20 rounded-2xl bg-slate-950/90 backdrop-blur-xl border border-indigo-400/10 text-white shadow-[0_20px_70px_rgba(0,0,0,.4)] p-2 sm:p-4 animate-[float_6s_ease-in-out_infinite_reverse] hover:-translate-y-2 hover:border-indigo-400/30 hover:shadow-[0_20px_70px_rgba(79,70,229,.18)] transition-all duration-300">
                     <div className="flex items-center gap-1 mb-2 sm:gap-1.5 sm:mb-3">
                       <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-red-400" />
                       <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-yellow-400" />
