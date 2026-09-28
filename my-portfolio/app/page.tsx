@@ -255,6 +255,20 @@ const projects = [
     ],
     href: "https://find-my-lost.vercel.app/",
   },
+  {
+    number: "06",
+    title: "CU Feast",
+    category: "WEB DEVELOPMENT",
+    description:
+      "A responsive food discovery platform adopted by 750+ students at Chandigarh University for searching food outlets inside the campus.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    stats: [
+      ["750+", "students"],
+      ["Responsive", "platform"],
+      ["Live", "deployment"],
+    ],
+    href: "https://cu-feast.vercel.app/",
+  },
 ];
 
 const certifications = [
@@ -281,6 +295,18 @@ const certifications = [
     provider: "University of California, Davis · Coursera",
     date: "December 2023",
     href: "https://www.coursera.org/account/accomplishments/specialization/U3GQA3GYAPE9",
+  },
+  {
+    title: "Introduction to Web Development with HTML, CSS, JavaScript",
+    provider: "IBM · Coursera",
+    date: "July 2023",
+    href: "https://www.coursera.org/verify/7YUK6N6LQKKT",
+  },
+  {
+    title: "Build Dynamic User Interfaces (UI) for Websites",
+    provider: "Google · Coursera",
+    date: "July 2023",
+    href: "https://www.coursera.org/verify/3MSDWCXPLSLT",
   },
 ];
 
@@ -1385,7 +1411,7 @@ export default function AboutDeveloperPage() {
                   </div>
 
                   {/* Floating code card */}
-                   <div className="absolute left-[-4px] top-[275px] w-28 sm:left-[-16px] sm:top-auto sm:bottom-10 sm:w-52 lg:left-[-112px] lg:bottom-20 rounded-2xl bg-slate-950/90 backdrop-blur-xl border border-indigo-400/10 text-white shadow-[0_20px_70px_rgba(0,0,0,.4)] p-2 sm:p-4 animate-[float_6s_ease-in-out_infinite_reverse] hover:-translate-y-2 hover:border-indigo-400/30 hover:shadow-[0_20px_70px_rgba(79,70,229,.18)] transition-all duration-300">
+                  <div className="absolute left-[-4px] top-[275px] w-28 sm:left-[-16px] sm:top-auto sm:bottom-10 sm:w-52 lg:left-[-112px] lg:bottom-20 rounded-2xl bg-slate-950/90 backdrop-blur-xl border border-indigo-400/10 text-white shadow-[0_20px_70px_rgba(0,0,0,.4)] p-2 sm:p-4 animate-[float_6s_ease-in-out_infinite_reverse] hover:-translate-y-2 hover:border-indigo-400/30 hover:shadow-[0_20px_70px_rgba(79,70,229,.18)] transition-all duration-300">
                     <div className="flex items-center gap-1 mb-2 sm:gap-1.5 sm:mb-3">
                       <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-red-400" />
                       <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-yellow-400" />
@@ -1441,7 +1467,7 @@ export default function AboutDeveloperPage() {
           <div className="grid grid-cols-2 md:grid-cols-4">
             <div className="group py-9 md:py-11 md:border-r border-white/10 text-center hover:bg-white/[0.025] transition-all duration-300">
               <p className="text-3xl md:text-4xl font-black text-white group-hover:text-indigo-300 group-hover:drop-shadow-[0_0_15px_rgba(129,140,248,.3)] transition-all">
-                <AnimatedNumber value={5} />
+                <AnimatedNumber value={6} />
               </p>
 
               <p className="mt-2 text-xs uppercase tracking-[0.15em] text-slate-500 font-semibold">
@@ -1451,7 +1477,7 @@ export default function AboutDeveloperPage() {
 
             <div className="group py-9 md:py-11 md:border-r border-white/10 text-center hover:bg-white/[0.025] transition-all duration-300">
               <p className="text-3xl md:text-4xl font-black text-white group-hover:text-purple-300 group-hover:drop-shadow-[0_0_15px_rgba(192,132,252,.3)] transition-all">
-                <AnimatedNumber value={4} />
+                <AnimatedNumber value={6} />
               </p>
 
               <p className="mt-2 text-xs uppercase tracking-[0.15em] text-slate-500 font-semibold">
