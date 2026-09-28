@@ -257,7 +257,7 @@ const projects = [
   },
   {
     number: "06",
-    title: "CU Feast",
+    title: "CU Foodies",
     category: "WEB DEVELOPMENT",
     description:
       "A responsive food discovery platform adopted by 750+ students at Chandigarh University for searching food outlets inside the campus.",
@@ -267,7 +267,7 @@ const projects = [
       ["Responsive", "platform"],
       ["Live", "deployment"],
     ],
-    href: "https://cu-feast.vercel.app/",
+    href: "https://cu-feast-v0-1.vercel.app/",
   },
 ];
 
