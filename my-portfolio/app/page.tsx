@@ -78,6 +78,11 @@ const referenceLinks: Record<string, string> = {
   IBM: "https://www.ibm.com/",
   Coursera: "https://www.coursera.org/",
   "Infosys Springboard": "https://infyspringboard.onwingspan.com/",
+  "Socket.io": "https://socket.io/",
+  "Node.js": "https://nodejs.org/en/docs/",
+  "RAWG API": "https://rawg.io/apidocs",
+  "Steam API": "https://partner.steamgames.com/doc/webapi_overview",
+  "ITAD API": "https://docs.isthereanydeal.com/#section/Terms-of-Service",
 };
 
 function ReferenceLink({
@@ -207,10 +212,10 @@ const projects = [
       "Uses real time API data to fetch game listings and product information, ensuring up-to-date content for users.",
       "Uses RAWG API, Steam API, and ITAD API to fetch game listings, product information, and price comparison data.",
     ],
-    technologies: ["HTML", "ReactJS", "Tailwind CSS", "JavaScript","Node.js", "Socket.io"],
+    technologies: ["HTML", "ReactJS", "Tailwind CSS", "JavaScript","Node.js", "Socket.io", "RAWG API", "Steam API", "ITAD API"],
     stats: [
       ["60000+", "games"],
-      ["50+", "components"],
+      ["100+", "components"],
       ["Responsive", "UI"],
     ],
     href: "https://hippo-store-tau.vercel.app/",
